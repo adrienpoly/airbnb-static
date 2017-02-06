@@ -1,0 +1,56 @@
+.form-airbnb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  flex-direction: row;
+  border: 1px solid $grey_platinum;
+  border-radius: 3px;
+  box-shadow: 1px, 1px, 3px, rgba(0, 0, 0, 0.3);
+
+  input, select{
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    color: $grey_platinum;
+
+  }
+  label{
+    color: $grey_platinum;
+  }
+  .form-location{
+    // display: flex;
+    // align-items: center;
+    // flex-direction: row;
+    flex: 1 0 auto;
+    padding: 0 40px;
+    border-right: 1px solid $grey_platinum;
+
+  }
+  .form-dates{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 25%;
+    padding: 0 40px;
+    border-right: 1px solid $grey_platinum;
+  }
+
+  .form-checkinout{
+    display: flex;
+    flex-direction: row;
+    // border-left: 1px solid $grey_platinum;
+  }
+
+  .form-guests{
+    border: 0;
+    flex: 1 0 15%;
+    padding: 0 40px;
+  }
+
+  .form-search{
+    border: 0;
+    // flex: 1 0 30%;
+    padding: 0 40px;
+  }
+}
+
