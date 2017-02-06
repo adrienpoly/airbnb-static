@@ -30,3 +30,38 @@ romain:
   city: London, UK
   latlgn: 51.508530, -0.076132
   wifi: false
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  space:
+    Accommodates: 2
+    Bathrooms: 1
+    Bed type: Real Bed
+    Bedrooms: 1
+    Beds: 1
+    Property type: Apartment
+    Room type: Entire home/apt
+  amenities:
+    kitchen: true
+    wifi: true
+    tv : true
+anne:
+  owner_name: Romain Paillard
+  picture: http://placehold.it/150x150
+  owner_picture: http://placehold.it/150x150
+  name: Romain's home
+  summary: Nice flat in Piccadilly
+  city: London, UK
+  latlgn: 51.508530, -0.076132
+  wifi: false
+  description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
+  space:
+    Accommodates: 2
+    Bathrooms: 1
+    Bed type: Real Bed
+    Bedrooms: 1
+    Beds: 1
+    Property type: Apartment
+    Room type: Entire home/apt
+  amenities:
+    kitchen: true
+    wifi: true
+    tv : true
