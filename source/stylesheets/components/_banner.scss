@@ -1,0 +1,28 @@
+/* Banner design */
+.banner {
+    background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("../../images/background.jpg");
+    /*width: 100%;*/
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+
+  .banner-text{
+    margin: auto;
+    align-items: center;
+    color: white;
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+
+    h2 {
+      padding-bottom: 20px;
+      opacity: 0.7;
+      font-weight: lighter;
+    }
+  }
+}
+
+
