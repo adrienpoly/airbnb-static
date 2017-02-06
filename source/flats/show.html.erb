@@ -1,7 +1,7 @@
 <!-- source/flats/show.html.erb -->
 
 <!-- Read from data.flats with owner's name as key -->
-<% flat = data.flats[owner] %>
+<%# flat = data.flats[owner] %>
 <!-- <h1>coucou</h1> -->
 <!-- Inject flat data in template -->
 <%#= image_tag flat.owner_picture, class: "img-circle" %>
@@ -13,18 +13,21 @@
       <div class="col-xs-12 col-sm-6 col-sm-offset-1">
         <div class="header-flat-details">
           <div class="header-flat-owner  text-center">
-            <%= image_tag "romain.jpeg", class: "avatar avatar-lg" %>
+            <%= image_tag "#{owner}.jpeg", class: "avatar avatar-lg" %>
             <!-- <img class="img-circle" width="80" src="../images/romain.jpeg"> -->
             <p><%= flat.owner_name %></p>
           </div>
           <div class="header-flat-name">
-            <h1><%= flat.summary %></h1>
-            <p><%= flat.city %></p>
-            <i class="fa fa-star" style="color: #ffb400"></i>
-            <i class="fa fa-star" style="color: #ffb400"></i>
-            <i class="fa fa-star" style="color: #ffb400"></i>
-            <i class="fa fa-star" style="color: #ffb400"></i>
-            <i class="fa fa-star" style="color: #cacccd"></i>
+            <h1 class="text-muted"><%= flat.summary %></h1>
+            <small><%= flat.city %></small>
+            <p>
+              <% flat.rating.times do %>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+              <% end %>
+              <% (5 - flat.rating).times do %>
+                <i class="fa fa-star" style="color: #cacccd"></i>
+              <% end %>
+            </p>
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ seb:
   city: Paris, France
   latlgn: 48.858093, 2.294694
   wifi: true
+  rating: 2
   description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   space:
     Accommodates: 2
@@ -30,6 +31,7 @@ romain:
   city: London, UK
   latlgn: 51.508530, -0.076132
   wifi: false
+  rating: 3
   description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   space:
     Accommodates: 2
@@ -52,6 +54,7 @@ anne:
   city: London, UK
   latlgn: 51.508530, -0.076132
   wifi: false
+  rating: 5
   description: This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur.
   space:
     Accommodates: 2
